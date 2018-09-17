@@ -4,7 +4,7 @@ FFmpeg for android的封装库，ffmpeg版本：3.3.7,加入了libmp3lame,libfdk
 ## Gradle
     dependencies {
        ...
-       implementation 'com.ecnu:viewpagercircle:2.1.0'
+       implementation 'com.ecnu:ffmpegcmd:1.0.0'
     }
 ## Usage
     String command="ffmpeg -i /storage/emulated/0/tempCut.mp3 -af volume=0.5 /storage/emulated/0/change.mp3";
